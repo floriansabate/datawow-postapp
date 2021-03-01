@@ -1,0 +1,14 @@
+# Referenced at C:\Users\flori\Documents\datawow-postapp\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:23
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+# Referenced at C:\Users\flori\Documents\datawow-postapp\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:115
+-keep class com.google.android.gms.common.api.GoogleApiActivity { <init>(); }
+# Referenced at C:\Users\flori\Documents\datawow-postapp\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:71
+-keep class com.google.firebase.components.ComponentDiscoveryService { <init>(); }
+# Referenced at C:\Users\flori\Documents\datawow-postapp\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:108
+-keep class com.google.firebase.provider.FirebaseInitProvider { <init>(); }
+# Referenced at C:\Users\flori\Documents\datawow-postapp\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:29
+-keep class io.datawow.postapp.MainActivity { <init>(); }
+# Referenced at C:\Users\flori\Documents\datawow-postapp\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:23
+-keep class io.flutter.app.FlutterApplication { <init>(); }
+# Referenced at C:\Users\flori\Documents\datawow-postapp\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:99
+-keep class io.flutter.plugins.imagepicker.ImagePickerFileProvider { <init>(); }
