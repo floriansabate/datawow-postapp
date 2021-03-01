@@ -419,7 +419,7 @@ class _PostComposer extends State<PostComposer> {
             child:
                 Column(mainAxisAlignment: MainAxisAlignment.center, children: [
               CircularProgressIndicator(),
-              SizedBox(height: 10),
+              SizedBox(height: 20),
               Text(
                 "Uploading...",
                 style: TextStyle(color: Colors.grey[500], fontSize: 13),
