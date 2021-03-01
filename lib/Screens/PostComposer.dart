@@ -278,8 +278,8 @@ class _PostComposer extends State<PostComposer> {
       PickedFile pickedFile = await ImagePicker().getImage(
         source: imageSource,
         imageQuality: 75, // limit the quality of the image to 75%
-        maxWidth: 1800,
-        maxHeight: 1800,
+        maxWidth: 1000,
+        maxHeight: 1000,
       );
       if (pickedFile != null) {
         setState(() {
