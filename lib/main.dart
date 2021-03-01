@@ -13,7 +13,8 @@ void main() async {
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    SystemChrome.setPreferredOrientations([ // default device orientation lock to portrait only
+    SystemChrome.setPreferredOrientations([
+      // default device orientation lock to portrait only
       DeviceOrientation.portraitUp,
       DeviceOrientation.portraitDown,
     ]);
@@ -51,7 +52,8 @@ class _MyHomePageState extends State<MyHomePage> {
                   Icons.message,
                   color: Colors.white,
                 ),
-                onPressed: () { //Open the PostComposer screen to create a new post after clicking on the IconButton
+                onPressed: () {
+                  //Open the PostComposer screen to create a new post after clicking on the IconButton
                   Navigator.push(context,
                       MaterialPageRoute(builder: (context) => PostComposer()));
                 }),
@@ -67,7 +69,6 @@ class _MyHomePageState extends State<MyHomePage> {
                 margin: EdgeInsets.symmetric(horizontal: 20),
                 child: PostList()), // Display the PostList screen
           ],
-        )
-        );
+        ));
   }
 }

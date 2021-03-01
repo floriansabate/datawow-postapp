@@ -1,7 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-
 //Custom PageView allowing to show an indicator at the bottom and animation
 class CustomPageView extends StatefulWidget {
   PageView _pageView;
@@ -53,11 +52,12 @@ class _CustomPageView extends State<CustomPageView> {
       int nextPage = widget._pageView.controller.page.round() + 1;
 
       if (nextPage == widget._length) {
-      nextPage = 0;
+        nextPage = 0;
       }
 
       widget._pageView.controller
-          .animateToPage(nextPage, duration: Duration(seconds: 1), curve: Curves.linear)
+          .animateToPage(nextPage,
+              duration: Duration(seconds: 1), curve: Curves.linear)
           .then((_) => _animateSlider());
     });
   }
